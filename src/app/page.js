@@ -1,9 +1,15 @@
-import Image from 'next/image'
-
 export default function Home() {
   return (
     <main>
-      <p>Hello World!</p>
+      <section id="highlight-view">
+        
+      </section>
+      
+      <section id="trending-view">
+      </section>
+
+      <section id="upcoming-view">
+      </section>
     </main>
   )
 }
