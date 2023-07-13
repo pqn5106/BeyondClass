@@ -4,6 +4,7 @@ export default function Home() {
       <section id="highlight-view">
         
       </section>
+      <h1>HELLO</h1>
       
       <section id="trending-view">
       </section>
