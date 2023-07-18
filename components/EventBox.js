@@ -45,8 +45,6 @@ const EventContainer = styled.div `
     background-color: white;
     border-radius: 30px;
     margin: 20px;
-    border-color: grey;
-    border-width: 5px;
     width: 20vw;
     height: 35vh;
     overflow: hidden;

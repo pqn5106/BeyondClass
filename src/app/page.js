@@ -27,7 +27,7 @@ export default function Home() {
 
 
   return (
-    <main background-color='1E1E1E'>
+    <main>
       <Navbar/>
       <section id="highlight-view" className="flex flex-col items-center">
         <Suspense fallback={<div>Loading...</div>}>
