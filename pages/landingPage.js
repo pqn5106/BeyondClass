@@ -4,17 +4,15 @@ import EventBox from '@/components/EventBox';
 import Button from '@mui/material/Button';
 
 
-function Home() {
+function LandingPage() {
   return (
     <div>
-      <h1>Welcome to my First Page</h1>
-      <p>This is my first Next.js webpage.</p>
       <EventBox></EventBox>
-      <Button variant="contained">Hello World</Button>
+      Blue
     </div>
   )
 }
 
 
 
-export default Home
+export default LandingPage
