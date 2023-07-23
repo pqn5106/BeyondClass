@@ -7,12 +7,6 @@ import { lazy, Suspense } from 'react';
 import Navbar from "@/components/navbar";
 import EventBox from '@/components/EventBox';
 
-
-
-
-
-
-
 export default function Home() {
   const GalleryCarousel = lazy(() => import('/components/GalleryCarousel'));
 
@@ -22,8 +16,6 @@ export default function Home() {
     'https://www.vieribottazzini.com/wp-content/uploads/X1DII1_00190_slide.jpg',
     // Add more image URLs as needed
   ];
-
-
 
 
   return (
@@ -36,16 +28,18 @@ export default function Home() {
         <TextField id="outlined-basic" label="Search" variant="standard" />
       </section>
 
-      <section id="trending-view" className = 'bg-black w-500 h-500'>
-        <p>HI</p>
+      <section id="trending-view" className = 'bg-black w-500 h-500 flex'>
+        <h1 className="text-white text-lg">Upcoming Events</h1>
+        <EventBox></EventBox>
+        <EventBox></EventBox>
+        <EventBox></EventBox>
+        <EventBox></EventBox>
       </section>
 
       <section id="upcoming-view">
         <p>
         </p>
       </section>
-      <div background-color='black'><EventBox></EventBox></div>
-      <EventBox></EventBox>
     </main>
   )
 }

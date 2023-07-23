@@ -3,9 +3,6 @@ import Image from 'next/image'
 import Button from '@mui/material/Button';
 
 const Navbar = () => {
-
-    
-    
     return (
         <nav className="flex items-center justify-between">
         <div className="flex items-center">
