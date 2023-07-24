@@ -4,21 +4,21 @@ import Button from '@mui/material/Button';
 
 const Navbar = () => {
     return (
-        <nav className="flex items-center justify-between">
+        <nav className="flex items-center justify-between bg-neutral-200">
         <div className="flex items-center">
           <Image className="px-10 py-5" src="https://beyondclass.net/static/media/beyondClassLogo.04a23293f4de636d9fae59ebf60f8b4d.svg" alt="Beyond Class Logo" width={300} height={200}/>
           <ul className="flex space-x-4 ml-4">
             <li>
-              <a href="#">Scholarship</a>
+              <a className = "px-10" href="#">Scholarship</a>
             </li>
             <li>
-              <a href="#">Competition</a>
+              <a className = "px-10" href="#">Competition</a>
             </li>
             <li>
-              <a href="#">Networking</a>
+              <a className = "px-10" href="#">Networking</a>
             </li>
             <li>
-              <a href="#">Club/Social</a>
+              <a className = "px-10" href="#">Club/Social</a>
             </li>
           </ul>
         </div>
