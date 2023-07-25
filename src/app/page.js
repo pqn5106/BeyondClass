@@ -22,27 +22,18 @@ export default function Home() {
   return (
     <main>
       <Navbar/>
-      <section id="highlight-view" className="flex flex-col items-center bg-neutral-200">
-        <Suspense fallback={<div>Loading...</div>}>
-          <GalleryCarousel images={images} />
-        </Suspense>
-        <SearchBar />
-      </section>
 
-      <section id="trending-view" className="bg-black">
-          <h1 className="text-xl text-white font-bold px-20 py-5">SCHOLARSHIPS</h1>
-          <hr className="w-100"/>
-          <p className="text-md text-white font-bold px-20 pt-2">Trending/Popular</p>
-        <div className="flex px-[3.5vw]">
-          <EventBox></EventBox>
+
+      <section id="trending-view" className="bg-white">
+          <h1 className="text-xl text-black font-bold px-20 py-5">Upcoming</h1>
+        <div className="flex px-[18.5vw]">
           <EventBox></EventBox>
           <EventBox></EventBox>
           <EventBox></EventBox>
         </div>
-
       </section>
 
-      <section className="bg-black" id="upcoming-view">
+      <section className="bg-white" id="upcoming-view">
         <p className="text-md text-white font-bold px-20 pt-2">Scholarship Search</p>
         <table className="table w-[80vw] overflow-hidden rounded-lg bg-[#F1F1F1] mx-[5vw] mt-2">
           <thead className="text-black">

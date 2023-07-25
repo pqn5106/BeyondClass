@@ -43,7 +43,7 @@ const EventContainer = styled.div `
     display: flex;
     flex-direction: column;
     background-color: white;
-    border-radius: 30px;
+    border-radius: 10px;
     margin: 20px;
     width: 20vw;
     height: 35vh;
