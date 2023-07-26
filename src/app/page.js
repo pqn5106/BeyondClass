@@ -62,7 +62,7 @@ export default function Home() {
                   </div>
                 </div>
               </td>
-              <td className="px-4 py-3 text-ms font-semibold border">Scholarship #2</td>
+              <td className="px-4 py-3 text-ms font-semibold border"><ScholarshipsList /></td>
               <td className="px-4 py-3 text-sm border">Online</td>
               <td className="px-4 py-3 text-sm border">12:00 PM</td>
               <td className="px-4 py-3 text-sm border">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, diam eget aliquam lacinia, nisl nisi aliquet nunc, vitae aliquam nisl nunc eu nunc. </td>
@@ -75,7 +75,7 @@ export default function Home() {
                   </div>
                 </div>
               </td>
-              <td className="px-4 py-3 text-ms font-semibold border">Scholarship #3</td>
+              <td className="px-4 py-3 text-ms font-semibold border"><ScholarshipsList /></td>
               <td className="px-4 py-3 text-sm border">Online</td>
               <td className="px-4 py-3 text-sm border">12:00 PM</td>
               <td className="px-4 py-3 text-sm border">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, diam eget aliquam lacinia, nisl nisi aliquet nunc, vitae aliquam nisl nunc eu nunc. </td>
@@ -88,7 +88,7 @@ export default function Home() {
                   </div>
                 </div>
               </td>
-              <td className="px-4 py-3 text-ms font-semibold border">Scholarship #4</td>
+              <td className="px-4 py-3 text-ms font-semibold border"><ScholarshipsList /></td>
               <td className="px-4 py-3 text-sm border">Online</td>
               <td className="px-4 py-3 text-sm border">12:00 PM</td>
               <td className="px-4 py-3 text-sm border">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, diam eget aliquam lacinia, nisl nisi aliquet nunc, vitae aliquam nisl nunc eu nunc. </td>
@@ -101,7 +101,7 @@ export default function Home() {
                   </div>
                 </div>
               </td>
-              <td className="px-4 py-3 text-ms font-semibold border">Scholarship #5</td>
+              <td className="px-4 py-3 text-ms font-semibold border"><ScholarshipsList /></td>
               <td className="px-4 py-3 text-sm border">Online</td>
               <td className="px-4 py-3 text-sm border">12:00 PM</td>
               <td className="px-4 py-3 text-sm border">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, diam eget aliquam lacinia, nisl nisi aliquet nunc, vitae aliquam nisl nunc eu nunc. </td>
@@ -114,7 +114,7 @@ export default function Home() {
                   </div>
                 </div>
               </td>
-              <td className="px-4 py-3 text-ms font-semibold border">Scholarship #6</td>
+              <td className="px-4 py-3 text-ms font-semibold border"><ScholarshipsList /></td>
               <td className="px-4 py-3 text-sm border">Online</td>
               <td className="px-4 py-3 text-sm border">12:00 PM</td>
               <td className="px-4 py-3 text-sm border">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, diam eget aliquam lacinia, nisl nisi aliquet nunc, vitae aliquam nisl nunc eu nunc. </td>
