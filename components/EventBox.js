@@ -11,7 +11,7 @@ const EventBox = (image, month, day, title, tags, description, link) => {
     const [eventMonth, setMonth] = useState("Jun");
     const [eventDay, setDay] = useState('25');
     const [eventTitle, setEventTitle] = useState("JP Morgan Healthcare Week 2023");
-    const [eventTags, setTags] = useState([{title:'Professional', color:"red"}, {title:'Important', color:'yellow'},{title: 'Fun',color:'green'}]);
+    const [eventTags, setTags] = useState([{title:'Professional', color:"#e9e6e6"}, {title:'Important', color:'#e9e6e6'},{title: 'Fun',color:'#e9e6e6'}]);
     const [eventDescription, setDescription] = useState('JP Morgan | Finance | On-Site');
     const [eventLink, setLink] = useState('google.com');
     
@@ -44,8 +44,8 @@ const EventContainer = styled.div `
     flex-direction: column;
     background-color: white;
     border-radius: 10px;
-    margin: 20px;
-    width: 20vw;
+    margin: 10px;
+    width: 50vw;
     height: 35vh;
     overflow: hidden;
 `
@@ -78,15 +78,15 @@ const DateContainer = styled.div `
 const DateMonth = styled.p `
     color: #3D37F1;
     font: 'DM Sans';
-    font-size: 1.3vw;
+    font-size: 1.0vw;
     font-weight: bold;
 `
 
 const DateDay = styled.p `
     color: black;
     font: 'DM Sans'; 
-    font-size: 2.5vw;
-    font-weight: bolder;
+    font-size: 2.0vw;
+    font-weight: semi-bold;
 `
 
 const DescContainer = styled.div `
@@ -123,7 +123,7 @@ const TagTextCont = styled.div`
 
   
   &:before {
-    border-radius: 0.6vw;
+    border-radius: 0.3vw;
     content: '';
     position: absolute;
     top: 0;
