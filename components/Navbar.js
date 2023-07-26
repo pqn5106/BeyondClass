@@ -2,7 +2,12 @@ import * as React from 'react';
 import Image from 'next/image'
 import Button from '@mui/material/Button';
 
+
+
+
 const Navbar = () => {
+
+
   return (
     <nav className="flex items-center bg-neutral-200">
       <div className=" flex items-center">
@@ -13,17 +18,17 @@ const Navbar = () => {
           width={300}
           height={200}
         /> 
-        <ul className="items-center">
-          <a className="px-10" href="#" style={{ paddingLeft: '12vw' }}>
+        <ul className="flex justify-center">
+          <a className="px-10" href="/" style={{ paddingLeft: '12vw' }}>
             Scholarship
           </a>
-          <a className="px-10" href="#" style={{ paddingLeft: '3vw' }}>
+          <a className="px-10" href="/competition" style={{ paddingLeft: '3vw' }}>
             Competition
           </a>
-          <a className="px-10" href="#" style={{ paddingLeft: '3vw' }}>
+          <a className="px-10" href="/network" style={{ paddingLeft: '3vw' }}>
             Networking
           </a>
-          <a className="px-10" href="#" style={{ paddingLeft: '3vw' }}>
+          <a className="px-10" href="/social" style={{ paddingLeft: '3vw' }}>
             Club/Social
           </a>
         </ul>
