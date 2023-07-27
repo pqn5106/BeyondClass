@@ -1,7 +1,7 @@
 import * as React from 'react';
 import Image from 'next/image'
 import Button from '@mui/material/Button';
-
+import Link from 'react-router-dom';
 
 
 
@@ -34,9 +34,11 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="flex flex-grow justify-end" style={{ paddingLeft: '25vw' }}>
+        <a href='https://docs.google.com/forms/d/1fRrXDcFNSsXm5dIY21RsC87GUx-klEQlo10XG3u28x8/edit'>
         <Button variant="outlined" size="small" className='bg-black'>
           Join Waitlist
         </Button>
+        </a>
       </div>
     </nav>
   );
