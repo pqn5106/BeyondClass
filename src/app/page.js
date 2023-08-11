@@ -28,9 +28,12 @@ export default function Home() {
         </div>
       </section>
 
+
+
       <section className="bg-[#edeef2]" id="upcoming-view">
         <p className="text-md text-black font-bold px-20 pt-2">Scholarship Search</p>
-        <table className="table w-[90vw] overflow-hidden rounded-lg bg-[#F1F1F1] mx-[5vw] mt-2">
+        <iframe class="airtable-embed " src="https://airtable.com/embed/appMRFnFPjI2vbHPA/shrQSbQVrUCistp21?backgroundColor=blue&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style={{background: "transparent;", border: "1px solid #ccc;"}}></iframe>
+        {/* <table className="table w-[90vw] overflow-hidden rounded-lg bg-[#F1F1F1] mx-[5vw] mt-2">
           <thead className="text-black">
             <tr className="bg-gray-50">
               <th className="px-4 py-3">Date</th>
@@ -120,7 +123,7 @@ export default function Home() {
               <td className="px-4 py-3 text-sm border">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, diam eget aliquam lacinia, nisl nisi aliquet nunc, vitae aliquam nisl nunc eu nunc. </td>
             </tr>
           </tbody>
-        </table>
+        </table> */}
       </section>
     </main>
   )
